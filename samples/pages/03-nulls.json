@@ -1,0 +1,13 @@
+{
+  "name": "03-nulls",
+  "data": "03-nulls.json",
+  "limit": 3,
+  "sort": [
+    {"field": "ppm", "dir": "asc", "nulls": "first"},
+    {"field": "zone", "dir": "desc", "nulls": "last"}
+  ],
+  "steps": [
+    {"op": "page", "cursor": null},
+    {"op": "page", "repeat": 5}
+  ]
+}

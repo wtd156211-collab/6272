@@ -1,0 +1,13 @@
+{
+  "name": "04-deep",
+  "data": "04-deep.json",
+  "limit": 2,
+  "sort": [
+    {"field": "ppm", "dir": "desc", "nulls": "last"},
+    {"field": "zone", "dir": "asc", "nulls": "first"}
+  ],
+  "steps": [
+    {"op": "page", "cursor": null},
+    {"op": "page", "repeat": 10000}
+  ]
+}

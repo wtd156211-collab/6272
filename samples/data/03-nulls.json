@@ -1,0 +1,21 @@
+{
+  "name": "03-nulls",
+  "rows": [
+    {"id": 301, "sensor": "s01", "ppm": null, "zone": null, "sampled": "2025-08-01"},
+    {"id": 302, "sensor": "s02", "ppm": 8, "zone": "zb", "sampled": "2025-08-02"},
+    {"id": 303, "sensor": "s03", "ppm": 8, "zone": "za", "sampled": "2025-08-03"},
+    {"id": 304, "sensor": "s04", "ppm": null, "zone": "zc", "sampled": "2025-08-04"},
+    {"id": 305, "sensor": "s05", "ppm": 5, "zone": null, "sampled": "2025-08-05"},
+    {"id": 306, "sensor": "s06", "ppm": 3, "zone": "zd", "sampled": "2025-08-06"},
+    {"id": 307, "sensor": "s00", "ppm": 3, "zone": null, "sampled": "2025-08-07"},
+    {"id": 308, "sensor": "s01", "ppm": null, "zone": "za", "sampled": "2025-08-08"},
+    {"id": 309, "sensor": "s02", "ppm": 1, "zone": "zb", "sampled": "2025-08-09"},
+    {"id": 310, "sensor": "s03", "ppm": 0, "zone": null, "sampled": "2025-08-10"},
+    {"id": 311, "sensor": "s04", "ppm": null, "zone": "zc", "sampled": "2025-08-11"},
+    {"id": 312, "sensor": "s05", "ppm": 12, "zone": "zb", "sampled": "2025-08-12"},
+    {"id": 313, "sensor": "s06", "ppm": 5, "zone": null, "sampled": "2025-08-13"},
+    {"id": 314, "sensor": "s00", "ppm": 4, "zone": "za", "sampled": "2025-08-14"},
+    {"id": 315, "sensor": "s01", "ppm": 2, "zone": "zd", "sampled": "2025-08-15"},
+    {"id": 316, "sensor": "s02", "ppm": 1, "zone": "zb", "sampled": "2025-08-16"}
+  ]
+}

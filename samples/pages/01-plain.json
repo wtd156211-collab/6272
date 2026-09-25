@@ -1,0 +1,14 @@
+{
+  "name": "01-plain",
+  "data": "01-plain.json",
+  "limit": 5,
+  "sort": [
+    {"field": "ppm", "dir": "desc", "nulls": "last"},
+    {"field": "zone", "dir": "asc", "nulls": "first"}
+  ],
+  "steps": [
+    {"op": "page", "cursor": null},
+    {"op": "page"},
+    {"op": "page"}
+  ]
+}

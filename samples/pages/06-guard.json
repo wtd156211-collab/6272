@@ -1,0 +1,18 @@
+{
+  "name": "06-guard",
+  "data": "06-guard.json",
+  "limit": 3,
+  "sort": [
+    {"field": "ppm", "dir": "asc", "nulls": "last"},
+    {"field": "zone", "dir": "desc", "nulls": "first"}
+  ],
+  "steps": [
+    {"op": "page", "cursor": null},
+    {"op": "page", "repeat": 2},
+    {"op": "page", "cursor": "literal:v1.eyJvZmZzZXQiOjMwMDAwfQ.AAAAAAAAAAAAAAAA"},
+    {"op": "page", "cursor": null},
+    {"op": "page"},
+    {"op": "page", "cursor": "tampered"},
+    {"op": "page", "cursor": "literal:v1."}
+  ]
+}

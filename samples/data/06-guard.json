@@ -1,0 +1,13 @@
+{
+  "name": "06-guard",
+  "rows": [
+    {"id": 501, "sensor": "s00", "ppm": 9, "zone": "z2", "sampled": "2025-10-01"},
+    {"id": 502, "sensor": "s01", "ppm": 8, "zone": "z1", "sampled": "2025-10-02"},
+    {"id": 503, "sensor": "s02", "ppm": 8, "zone": null, "sampled": "2025-10-03"},
+    {"id": 504, "sensor": "s03", "ppm": 5, "zone": "z3", "sampled": "2025-10-04"},
+    {"id": 505, "sensor": "s00", "ppm": 5, "zone": "z2", "sampled": "2025-10-05"},
+    {"id": 506, "sensor": "s01", "ppm": 5, "zone": null, "sampled": "2025-10-06"},
+    {"id": 507, "sensor": "s02", "ppm": 1, "zone": "z1", "sampled": "2025-10-07"},
+    {"id": 508, "sensor": "s03", "ppm": 0, "zone": "z3", "sampled": "2025-10-08"}
+  ]
+}

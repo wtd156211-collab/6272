@@ -1,0 +1,13 @@
+{
+  "name": "02-tie-dense",
+  "data": "02-tie-dense.json",
+  "limit": 4,
+  "sort": [
+    {"field": "ppm", "dir": "desc", "nulls": "last"},
+    {"field": "zone", "dir": "asc", "nulls": "first"}
+  ],
+  "steps": [
+    {"op": "page", "cursor": null},
+    {"op": "page", "repeat": 9}
+  ]
+}
